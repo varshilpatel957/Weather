@@ -28,8 +28,8 @@ document.getElementById('search-form').addEventListener('submit', function (even
             document.getElementById('weather').style.display = 'block';
             document.getElementById('description').style.display = 'block';
             document.getElementById('temperature').style.display = 'block';
-            document.getElementById('highest').style.display = 'block';
-            document.getElementById('lowest').style.display = 'block';
+            document.getElementById('highest').style.display = 'none';
+            document.getElementById('lowest').style.display = 'none';
             document.getElementById('feels-like').style.display = 'block';
 
 
