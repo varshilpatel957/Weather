@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <form class="search-form" id="search-form">
+            <input type="text" id="city" placeholder="Enter city name">
+            <input type="submit" value="Search">
+        </form>
+        <div class="weather-info" id="weather-info">
+
+
+            <div id="weather" class="tabcontent">
+                <h2>Weather</h2>
+                <p id="weather-data">Loading...</p>
+            </div>
+
+            <div id="description" class="tabcontent">
+                <h2>Weather Description</h2>
+                <p id="description-data">Loading...</p>
+            </div>
+
+            <div id="temperature" class="tabcontent">
+                <h2>Temperature</h2>
+                <p id="temperature-data">Loading...</p>
+            </div>
+
+            <div id="highest" class="tabcontent">
+                <h2>Highest Temperature</h2>
+                <p id="highest-data">Loading...</p>
+            </div>
+
+            <div id="lowest" class="tabcontent">
+                <h2>Lowest Temperature</h2>
+                <p id="lowest-data">Loading...</p>
+            </div>
+            <div id="feels-like" class="tabcontent">
+                <h2>It will feel like</h2>
+                <p id="feel-data">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

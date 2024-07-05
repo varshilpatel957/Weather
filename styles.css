@@ -1,0 +1,111 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+p,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up base font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center aligning headings */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center aligning form and its elements */
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling input for city name */
+.search-form input[type=text] {
+    padding: 12px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+}
+
+/* Styling submit button */
+.search-form input[type=submit] {
+    padding: 12px 24px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Styling for tabs */
+.tab {
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    /* Vertical border between tabs and content */
+    height: 100%;
+    /* Full height of the tab container */
+}
+
+.tab button {
+    background-color: inherit;
+    width: 100%;
+    /* Full width of each tab button */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+    text-align: left;
+    /* Align text to the left */
+}
+
+.tab button:hover {
+    border-bottom: 2px solid #4CAF50;
+}
+
+.tab button.active {
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    height: 100%;
+    /* Full height of the tab content */
+}
+
+.tabcontent h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.tabcontent p {
+    font-size: 18px;
+    margin: 10px 0;
+}
